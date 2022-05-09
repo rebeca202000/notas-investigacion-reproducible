@@ -1,11 +1,33 @@
-# Lorem ipsum dolor sit amet
+# _Notas sobre la investigacion reproducible y analisis de datos_
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper orci sapien, in ornare sapien consequat in. In porta pharetra iaculis. Praesent dignissim ligula sed nisi viverra, sit amet ullamcorper ipsum viverra. Etiam vestibulum est non est viverra, at tristique dolor rutrum. Cras aliquam arcu vitae nulla semper vehicula vitae eget ex. Integer vitae massa mollis, rutrum neque quis, fermentum sapien. In sagittis sapien sit amet viverra vulputate. Quisque placerat posuere est sed tempor. Vestibulum urna massa, bibendum sagittis laoreet sed, iaculis sit amet dolor. Pellentesque dignissim metus purus, vitae molestie ante aliquam sit amet. Duis velit metus, elementum ac mauris at, fringilla efficitur turpis. Nulla volutpat mauris justo, quis ultricies felis vehicula vel. Sed faucibus eu diam sed suscipit. Quisque vel nibh libero. Aenean non molestie nunc, nec sodales ligula.
+## **Repruductibilidad**
 
-Pellentesque porta dignissim lectus, non tempus diam porta non. Cras auctor justo at lacus venenatis, non posuere dui vulputate. Mauris non tortor et augue tempus pulvinar. In ultricies ornare lobortis. Morbi vehicula condimentum ex, id blandit velit eleifend in. Morbi porta mauris a placerat congue. Nunc pulvinar, odio quis iaculis interdum, lorem ex iaculis ante, ut congue justo tortor at velit. Nulla facilisi. Pellentesque nec interdum urna. Etiam quis arcu scelerisque leo euismod dapibus. Nam rhoncus, nisl quis consectetur sodales, enim erat lacinia neque, a malesuada mauris felis eget nisi. Sed tincidunt mi nulla.
+El término **reproducibilidad** (o *reproducibility*, en inglés) se refiere a la capacidad de reproducir un trabajo de investigación, de manera que sus resultados puedan ser obtenidos por otros al seguir la misma metodología. Usualmente, la reproducibilidad requiere que los datos y el código de programación utilizados en la investigación estén disponibles para quienes deseen usarlos (Bezjak et al., 2018). Este concepto está relacionado con el de **replicabilidad** (o *replicability*, en inglés), el cual se refiere a la posibilidad de obtener resultados consistentes (no idénticos) al replicar un estudio con un conjunto distinto de datos, pero siguiendo el mismo diseño experimental. Estos conceptos son elementos centrales de la investigación científica
 
-Aenean non tellus sapien. Phasellus ut venenatis diam. Maecenas efficitur varius velit. Integer quis lacinia arcu. In hac habitasse platea dictumst. Praesent enim dui, vestibulum id nisl in, mattis commodo lacus. Donec scelerisque egestas sagittis. Aliquam sagittis lacus lobortis, eleifend sem ut, vehicula odio. Mauris sit amet porttitor ex. Aenean tempor erat sed dictum consectetur. Nullam urna erat, maximus nec magna ut, convallis volutpat massa. Donec a tellus gravida, varius lorem eu, bibendum tellus.
+### Importancia de la reproducibilidad
 
-Fusce ligula leo, ornare quis felis a, placerat viverra massa. Aenean quis malesuada purus, ut interdum tortor. Integer sed lacus mauris. Nulla convallis arcu metus, nec lobortis ligula fermentum eget. Phasellus a lobortis ipsum. Fusce nec enim eu elit semper vulputate sit amet in quam. Mauris ut auctor erat. Etiam ut sapien augue. Phasellus vel nulla sit amet nulla cursus pretium sit amet ut mauris. Suspendisse rutrum, nulla quis viverra ullamcorper, lectus nisl sollicitudin felis, sed fringilla nibh nibh vel odio. Nulla ullamcorper in dolor sed elementum. Aenean laoreet risus in purus fringilla rutrum. Suspendisse tristique, orci eu imperdiet tincidunt, quam ipsum rutrum ligula, id rutrum odio augue vel risus. Sed vulputate est at mauris sodales, sit amet aliquam nunc dictum.
+¿Por qué es importante la investigación reproducible? Para encontrar una respuesta, podemos estudiar sus inicios. A principios de la década de 1990, un geofísico estadounidense llamado John Claerbout realizó la siguiente afirmación:
 
-Nulla id quam ut elit luctus sagittis vel eu leo. Nulla facilisi. Morbi vel condimentum ex, pharetra vehicula ante. Nunc massa tellus, efficitur at lectus id, gravida eleifend purus. Donec odio neque, facilisis vel placerat vitae, aliquam eget tellus. Donec vel eros a risus faucibus rutrum id vitae augue. Phasellus laoreet mi efficitur egestas mollis. Fusce ornare dolor accumsan est faucibus posuere. 
+ >"Al día de hoy, pocos resultados publicados son reproducibles en un sentido práctico. Verificarlos requiere de tanto esfuerzo como el que tomó crearlos. Después de un tiempo, incluso los autores son incapaces de reproducir sus propios resultados. Por esta razón, muchas personas ignoran la mayor parte de la literatura científica." (Claerbout, 1992)
+ 
+Con el fin de resolver esta problemática, diferentes organizaciones, como el Comité Internacional de Publicaciones de Medicina o la Administración de Alimentos y Medicamentos de Estados Unidos ([FDA]( https://www.fda.gov/)), empezaron a publicar lineamientos para atacar los problemas derivados de una inadecuada documentación de los experimentos basados en ensayos aleatorios. De manera simultánea, se le dio más importancia a la calidad de los datos utilizados en las investigaciones. Así, por ejemplo, como se muestra en la figura 1, Mark Ziemann encontró en 2016 que un 20% de los artículos con archivos de datos suplementarios publicados en revistas científicas contenían errores en los nombres de los genes, debido a los parámetros de configuración de Microsoft Excel (Ziemann et al., 2016).
+ 
+ 
+ ![Figura 1. Resultados de la revisión sistemática de archivos de Excel suplementarios. Fuente (Ziemann et al.,2016)](ZiemannEtAlFig1.png)
+ 
+ 
+#### Bibliografía
+
+Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). *Open Science Training Handbook*. Zenodo. [https://doi.org/10.5281/ZENODO.1212496](https://doi.org/10.5281/ZENODO.1212496)
+
+Claerbout, J. F. (1992). *Earth Soundings Analysis: Processing Versus Inversion*. Blackwell Science Inc.
+
+Ziemann, M., Eren, Y., & El-Osta, A. (2016). Gene name errors are widespread in the scientific literature. *Genome Biology*, 17(1), 177. [https://doi.org/10.1186/s13059-016-1044-7](https://doi.org/10.1186/s13059-016-1044-7)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
